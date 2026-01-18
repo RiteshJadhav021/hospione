@@ -300,6 +300,312 @@ body {
      max-width: 100%;
    position: absolute;
     right: 0;
-    top: 32%;
+    top: 33%;
+}
+.container{
+    width: 100%;
+}
+
+.img_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5.5vw;
+   box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1);
+     margin-top: 20px;
+     max-width: 950px;   /* same like container width in image */
+    margin: 20px auto;   /* centers the container */
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+.container h1{
+    text-align: center;
+    padding: 10px;
+}
+.body_img img{
+    height: 10vh;
+   border: none;
+    box-shadow: 2px 4px 8px rgb(153, 152, 152);
+    border-radius: 50%;
+    padding: 12px;
+    display: block;
+    transition: transform 0.3s ease;
+}
+.body_img img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.body_img p:hover{
+       color: #102a66;
+    
+}
+.body_img p{
+    text-align: center;
+    padding: 12px 0;
+    color: #8e8d8d;
+}
+
+.view_btn{
+    display: block;
+    margin: -35px auto 0;
+    padding: 12px 40px;
+
+    border: none;
+    border-radius: 30px;
+    background: #18b7c9;
+    color: #fff;
+
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.doctors_logos{
+    width: 100%;
+   
+}
+.doctors_logos img{
+    object-fit: cover;
+    width: 100%;
+   
+   
+   
+}
+.container{
+    background-color: white;
+    position: absolute;
+}
+.hero_second{
+    background: url(Images/letsTalkWithYou_background.png);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+   
+}
+.hero_second_left img{
+   width: 40vw;
+  margin-left: 10vw;
+  /* margin-top: 2vh; */
+  margin-bottom: 15vh;
+   box-shadow: 2px 4px 8px rgb(153, 152, 152);
+   border-radius: 10px;
+ 
+}
+.hero_second_right{
+    position: relative;
+   right: 7vw;
+   bottom: 10vh;
+   line-height: 30px;
+}
+.hero_second_right h2{
+    color: #00A19A;
+    margin-bottom: 20px;
+}
+.hero_second_right h1{
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.hero_second_right p{
+    margin: 10px 0;
+   color: #8e8d8d;
+}
+.hero_right_btn{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+.hero_right_btn button{
+    padding: 12px 20px;
+    border-radius: 25px;
+    /* border: none; */
+    cursor: pointer;
+    font-size: 14px;
+}
+.right_btn{
+     background: #fff;
+    border: 1px solid #00b6c9;
+    color: black;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.right_btn1{
+    background-color: #18b7c9;
+    color: white;
+    padding: 20px;
+    border: none;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+.myform {
+    width: 60%;
+    margin: 50px auto;
+    background-color: #00A19A;
+    padding: 30px 30px 60px;
+    border-radius: 12px;
+    display: block;
+    margin: -18vh auto 0;
+    position: relative;
+}
+
+.myform h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+   
+}
+.form-grid input{
+    grid-column: span 3;
+}
+.form-grid select{
+    grid-column: span 2;
+}
+
+
+
+
+
+
+/* Inputs & Selects */
+.form-grid input,
+.form-grid select {
+    padding: 14px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+/* Button styling */
+.form-grid button {
+    grid-column: 3 /5;
+    padding: 14px 20px;
+    background-color: #0b1c4d;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    bottom: -30px;
+    display: flex;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+  
+}
+
+.form-grid button:hover {
+    background-color: #09163a;
+}
+.hero_doctor{
+    width: 100%;
+    background-color: white;
+      display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.hero_doctor img{
+   width: 80%;
+   object-fit: cover;
+ 
+}
+.hero_doctor_btn{
+    color: white;
+    background-color: #00b6c9;
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: -9vh auto 0;
+    padding: 12px 20px;
+    border-radius: 25px;
+    /* border: none; */
+    cursor: pointer;
+    font-size: 14px;
+    gap: 10px;
+    display: flex;
+}
+.hero_doctor_btn:hover{
+    opacity: 0.85;
+}
+.hero_mobile{
+    background: url(Images/mobile_background.png);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+   
+}
+.mobile_left img{
+    width: 35vw;
+}
+.mobile_right{
+    margin-bottom: 20vh;
+    max-width: 600px;
+    position: relative;
+   
+}
+.mobile_right h3{
+    font-size: 30px;
+    color: #00A19A;
+    margin-bottom: 20px;
+}
+.mobile_right p{
+    color: #8e8d8d;
+    line-height: 20px;
+    margin-top: 25px;
+}
+.mobile_logo1{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.mobile_logo1 img{
+    width: 3vw;
+   
+   
+}
+.mobile_logo1 h3{
+    font-size: 15px;
+    margin-bottom: 0;
+    align-items: center;
+    color: #8e8d8d;
+}
+.mobile_logos{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}
+.mobile_logos2{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 87px;
+    
+}
+.mobile_sponsor{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 70vh;
+    gap: 30px;
+   
 }
 
