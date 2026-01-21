@@ -444,7 +444,7 @@ body {
 }
 .myform {
     width: 60%;
-    margin: 50px auto;
+    /* margin: 50px auto; */
     background-color: #00A19A;
     padding: 30px 30px 60px;
     border-radius: 12px;
@@ -608,4 +608,396 @@ body {
     gap: 30px;
    
 }
+.mobile_data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    
+    
+}
+.mobile_below_container{
+    display: block;
+    margin: -13vh auto 0;
+    box-shadow: 2px 4px 8px rgb(153, 152, 152);
+     padding: 30px 30px 60px;
+    border-radius: 12px;
+      width: 60%;
+      background-color: white;
+}
+.mobile_below_container h2{
+    text-align: left;
+    font-size: 30px;
+    max-width: 35vw;
+    margin-left: 40px;
 
+}
+.mobile_data p{
+    text-align: left;
+    max-width: 30vw;
+    margin-left: 40px;
+    line-height: 25px;
+    padding-top: 20px;
+    color: #8e8d8d;
+}
+.mobile_data button{
+    padding: 12px 20px;
+    border-radius: 25px;
+    /* border: none; */
+    cursor: pointer;
+    font-size: 14px;
+    background-color: #00b6c9;
+    color: white;
+    border: 1px solid #00b6c9;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+.patient{
+    text-align: center;
+    padding: 50px 8%;
+}
+.patient h5{
+     color: #00a6a6;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.patient h2{
+     font-size: 32px;
+    margin-bottom: 40px;
+}
+.patient_lists{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.patient_record{
+    text-align: left;
+    
+}
+.patient_record img{
+     width: 25vw;
+    border-radius: 12px;
+    height: 55vh;
+    object-fit: cover;
+    box-shadow: 2px 4px 8px rgb(153, 152, 152);
+}
+.patient_icon{
+     display: flex;
+    gap: 18vw;
+    font-size: 13px;
+    color: #777;
+    margin: 12px 0;
+}
+.patient_icon h6{
+    display: flex;
+    gap: 6px;
+}
+.patient_record h4{
+     font-size: 15px;
+    margin: 10px 0;
+    max-width: 20vw;
+   
+}
+.patient_record p{
+    font-size: 13px;
+    color: #666;
+    line-height: 1.6;
+}
+.patient_record a{
+     display: inline-block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #00a6a6;
+    text-decoration: none;
+    font-weight: 600;
+}
+.patient_btn{
+    margin-top: 20px;
+    padding:12px 40px;
+    border: none;
+    border-radius: 30px;
+    background: #18b7c9;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.surgeon{
+    background: url(Images/mobile_background.png);
+    width: 100%;
+    height: 35vh;
+    background-blend-mode:multiply;
+    background-color: #009a92ab;
+}
+.surgeon h1{
+    color: white;
+    text-align: center;
+    padding: 20px 0 10px 0;
+}
+.surgeon h2{
+    color: white;
+    text-align: center;
+}
+.surgeon p{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.surgeon_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+.surgery_phone{
+    padding: 12px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 14px;
+     background-color: #009a92ab;
+    border: 1px solid white;
+    color: white;
+}
+.surgery_consult{
+    padding:12px 40px;
+    border: none;
+    border-radius: 30px;
+     background-color: #0b1c4d;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.testimo{
+    text-align: center;
+    padding: 50px 8%;
+}
+.testimo h5{
+     color: #00a6a6;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.testimo h4{
+    padding: 10px 0;
+}
+.testimo h2{
+     font-size: 32px;
+    margin-bottom: 40px;
+}
+.patient_testimo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.patient_testimo img{
+    padding: 0 20px;
+    width: 8vw;
+}
+.patient_testimo pre{
+    text-align: center;
+     font-size: 15px;
+    color:#8e8d8d;
+    line-height: 1.6;
+    padding: 10px;
+}
+.testimo button{
+     margin-top: 20px;
+    padding: 12px 60px;
+    border: none;
+    border-radius: 30px;
+    background: #18b7c9;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.hospital{
+    /* text-align: center; */
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     background-color: #F8FAF9;
+    
+}
+
+.hospital_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+     position: relative;
+}
+.hospital_container h1{
+    padding-top: 20px;
+}
+.hospital_img{
+    display: flex;
+    justify-content: space-between;
+}
+.hospital_img img{
+    width: 48%;
+    border-radius: 10px;
+    height: 39vh;
+    object-fit: cover;
+  
+}
+.hospital_info{
+    width: 48%;
+    text-align: justify;
+    
+}
+/* .hospital_img p{
+    
+   margin-left: 20px;
+   text-align: left;
+    
+} */
+ .hospital_info p{
+     margin-bottom: 15px;
+    line-height: 1.6;
+    color: #444;
+ }
+
+.hospital_text p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: #444;
+}
+
+.hospital_text a {
+    color: #1aa6a6;
+    text-decoration: none;
+    font-weight: 500;
+}
+.hospital_text{
+    margin-top: 10px;
+    text-align: justify;
+}
+.hospital_text a{
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    padding: 5px 0;
+   
+}
+.footer_info{
+      padding: 40px 8%;
+    font-family: Arial, sans-serif;
+   
+}
+.footer_info p{
+     margin-bottom: 15px;
+    line-height: 1.6;
+    color: #444;
+}
+.footer_information{
+    /* display: flex;
+    gap: 40px; */
+     display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 30px;
+    margin-bottom: 25px;
+}
+.footer_information h4{
+     font-size: 15px;
+    font-weight: 600;
+    color: #222;
+}
+footer{
+    background-color: #1D254A;
+    width: 100%;
+    padding: 10px;
+    
+}
+.footer_container{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    padding-top: 20px;
+    
+}
+.footer_data img{
+    width: 20vw;
+    color: white;
+}
+.footer_data p{
+    margin-bottom: 20px;
+     color: #ffffff94;
+}
+.footer_data button{
+    padding: 12px 20px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+     background-color: #1D254A;
+    /* border: 1px solid #00b6c9; */
+    color: white;
+}
+.footer_data h5{
+    color: white;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.footer_data h2{
+    color: white;
+    padding-bottom: 20px;
+}
+.footer_data ul li {
+    color: white;
+    padding: 10px 0;
+   
+}
+.footer_data ul li a{
+    color: #ffffff94;
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+}
+.footer_data ul{
+    list-style: none;
+}
+.footer_img img{
+    width: 4vw;
+ 
+}
+.footer_img{
+    position: relative;
+    transition: transform 0.5s ease;
+   
+    
+}
+.footer_img img:hover{
+    transform: translateY(-10px);
+    
+}
+.footer_img img{
+    position: absolute;
+    right: 3%;
+    bottom: 10%;
+    cursor: pointer;
+}
+.footer_icons{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_icons_hr i{
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 7px;
+}
+.footer_icons_hr{
+    display: flex;
+    gap: 10px;
+    padding: 10px 0;
+}
+.footer_last_data{
+   color: #ffffff94;
+    padding: 10px 0;
+}
